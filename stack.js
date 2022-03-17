@@ -37,5 +37,5 @@ console.log(stack.items);
 stack.remove();
 console.log(stack.size());
 stack.clear();
-console.log(stack);
+console.log(stack.items);
 
