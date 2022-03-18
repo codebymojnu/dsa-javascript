@@ -11,9 +11,9 @@ class Stack{
     }
 
     // remove item from the stack
-    remove(element){
+    remove(){
         if(this.items.length > 0){
-            return this.items.pop(element);
+            return this.items.pop();
         }
     }
 
