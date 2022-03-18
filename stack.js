@@ -38,4 +38,5 @@ stack.remove();
 console.log(stack.size());
 stack.clear();
 console.log(stack.items);
+console.log(stack.size())
 
