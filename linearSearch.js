@@ -1,11 +1,11 @@
 function linearSearch(arr, key) {
     let results = [];
     for (let i = 0; i < arr.length; i++) {
-        if(arr[i].nayok === key){
+        if (arr[i].email === key) {
             results.push(arr[i]);
         }
     }
-    if(!results){
+    if (!results) {
         return -1;
     }
     return results;
@@ -13,29 +13,21 @@ function linearSearch(arr, key) {
 
 const arr = [
     {
-        nayok: "Sakib",
-        nayika: "Apu"
+        email: "mojnu.cse.pust@gmail.com",
+        order: "Bondna"
     },
     {
-        nayok: "Eliyas",
-        nayika: "Anju"
+        email: "morshed@gmail.com",
+        order: "Hariken"
     },
     {
-        nayok: "Sakib",
-        nayika: "Bubli"
+        email: "asad@gmail.com",
+        order: "Nempo"
     },
     {
-        nayok: "Morshed",
-        nayika: "Arfin"
-    },
-    {
-        nayok: "Salman",
-        nayika: "Sabnur"
-    },
-    {
-        nayok: "Mojnu",
-        nayika: "nai"
+        email: "mojnu.cse.pust@gmail.com",
+        order: "data structure and algorithm book"
     }
 ]
-const result = linearSearch(arr, "Sakib");
+const result = linearSearch(arr, "mojnu.cse.pust@gmail.com");
 console.log(result);
